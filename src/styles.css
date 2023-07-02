@@ -22,7 +22,7 @@ body {
 
 header {
   width: 100vw;
-  height: 6vh;
+  height: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@ header {
   color: black;
   position: absolute;
   top: 0;
-  height: 6vh;
+  height: 5vh;
   padding: 0.8em 0;
 }
 
@@ -326,10 +326,6 @@ button.scale {
 }
 
 @media (max-width: 950px) {
-  header {
-    height: 5vh;
-  }
-
   .top-section {
     flex-direction: row;
     flex-wrap: wrap;
